@@ -1,3 +1,4 @@
+/* The styling from the original template was for a form with a lot of margin values reset. Taking this out gives images with the background image. */
 * {
   margin: 0px;
   padding: 0px;
@@ -12,9 +13,7 @@ html {
 
 /*---------------------------------------------*/
 a {
-  font-size: 14px;
   line-height: 1.7;
-  margin: 0px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -45,13 +44,12 @@ p {
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
-  margin: 0px;
+  margin: 5px;
 }
 
 ul,
 li {
-  margin: 0px;
-  list-style-type: none;
+  margin-left: 15px;
 }
 
 /*---------------------------------------------*/
@@ -61,6 +59,7 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .container-gold {
@@ -78,13 +77,14 @@ li {
 }
 
 .wrap-gold {
-  width: 790px;
   background: #fff;
-  border-radius: 10px;
+  width: 790px;
+  padding: 40px;
+  border-radius: 5px;
   overflow: hidden;
-  padding: 30px 20px 30px 20px;
 }
 
-.iframe {
-  max-width: 50%;
+iframe {
+  border: solid gold;
+  border-radius: 5px;
 }
