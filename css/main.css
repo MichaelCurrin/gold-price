@@ -1,4 +1,4 @@
-/* The styling from the original template was for a form with a lot of margin values reset. Taking this out gives images with the background image. */
+/* The original template had a lot of space around elements but this is removed for this project. */
 * {
   margin: 0px;
   padding: 0px;
@@ -12,6 +12,7 @@ html {
 }
 
 /*---------------------------------------------*/
+
 a {
   line-height: 1.7;
   transition: all 0.4s;
@@ -30,6 +31,7 @@ a:hover {
 }
 
 /*---------------------------------------------*/
+
 h1,
 h2,
 h3,
