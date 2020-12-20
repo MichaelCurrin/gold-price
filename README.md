@@ -1,5 +1,5 @@
-# Gold Price Site
-> Whoopi Goldbot homepage as a one-page site with gold and exchange rate widgets
+# Gold Price
+> Site for Whoopi Goldbot incluiding gold and exchange rate widgets
 
 - Project website: https://whoopi-goldbot.netlify.com/
 
